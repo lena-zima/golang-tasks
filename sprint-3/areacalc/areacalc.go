@@ -23,8 +23,7 @@ func NewRectangle(length float64, width float64, name string) *Rectangle {
 }
 
 func (r Rectangle) Area() float64{
-	var area float64
-	area = r.length*r.width
+	var area = r.length*r.width
 	return area
 }
 
@@ -33,8 +32,7 @@ func (r Rectangle) Type() string{
 }
 
 func (c Circle) Area() float64{
-	var area float64
-	area = pi * c.radius * c.radius
+	var area = pi * c.radius * c.radius
 	return area
 }
 
